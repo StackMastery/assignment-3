@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.menu-items a{
+    transition: 0.5s ease;
+    &:hover{
+        color: #ABEF5F;
+    }
+}
+.active svg{
+    stroke: #ABEF5F !important;
+}
