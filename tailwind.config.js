@@ -3,6 +3,9 @@ module.exports = {
   content: ["*"],
   theme: {
     extend: {
+      backgroundImage:{
+        'about': 'url(/assets/images/about.png)',
+      },
       width: {
         'primary': '1440px',
       },
@@ -10,7 +13,8 @@ module.exports = {
         'primary': '#ABEF5F',
         'lightPrimary': 'rgba(171, 239, 95, 0.5)',
         'textcolor': '#212121',
-        'borderColor': '#E9E9E9'
+        'borderColor': '#E9E9E9',
+        'ofwhite': '#494949'
       },
       fontFamily: {
         'main': 'Manrope'

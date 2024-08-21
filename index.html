@@ -10,8 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 <body class="font-main bg-white border-borderColor">
+    <!-- Header -->
     <header class="flex justify-center">
         <div class="inline-flex justify-between items-center w-primary px-5 py-8">
+            <!-- Logo -->
             <div class="flex items-center gap-2">
                 <span class="bg-primary p-2 rounded-full sx:p-3">
                     <svg class="sx:w-4 sx:h-4" width="10" height="10" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,9 +23,10 @@
                 </span>
                 <h2 class="text-3xl text-xl font-bold text-textcolor sx:text-3xl">Rinterio</h2>
             </div>
+            <!-- Menu -->
             <nav class="hidden md:flex" id="menu">
-                <div class="absolute flex justify-center left-0 px-5 top-[82px] w-full md:relative md:top-0 ">
-                    <ul class="w-full border rounded-lg p-5 bg-white flex flex-col gap-3 menu-items md:border-0 md:flex-row md:gap-4 lg:text-xl lg:gap-8">
+                <div class="absolute flex justify-center left-0 px-5 top-[98px] w-full md:relative md:top-0 ">
+                    <ul class="w-full border rounded-lg p-5 bg-white flex flex-col gap-5 menu-items md:border-0 md:flex-row md:gap-4 lg:text-xl lg:gap-8">
                         <li><a href="" class="font-bold text-[#494949]">Home</a></li>
                         <li><a href="">Services</a></li>
                         <li><a href="">Portfolio</a></li>
@@ -59,6 +62,7 @@
                     </ul>
                 </div>
             </nav>
+            <!-- Buttons And Icons -->
             <div class="flex gap-5">
                 <div class="flex gap-5 hidden sx:flex items-center">
                     <div>
@@ -96,16 +100,20 @@
             </div>
         </div>
     </header>
+    <!-- Hero -->
     <section class="flex justify-center">
-        <div class="inline-flex items-center w-primary justify-center flex-col px-5">
+        <div class="inline-flex items-center w-primary justify-center flex-col px-5 pb-20">
+            <!-- Hero Image -->
             <div>
-                <img class="p-5 pb-0 lg:w-[650px]" src="assets/images/Hero.svg" alt="Rinterio">
+                <img class="p-5 pb-0 lg:w-[650px] lg:h-[401px]" src="assets/images/Hero.svg" alt="Rinterio">
             </div>
+            <!-- Hero Text -->
             <div class="text-center flex flex-col justify-center w-full gap-7">
                 <h1 class="text-3xl font-extrabold text-textcolor line-[28px] sx:text-4xl lg:text-6xl">A barn house of this design has a<br class="hidden sx:block"/> striking appearance </h1>
                 <p class="text-[14px] text-[#494949] ">
                     The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal<br/> accents, and large windows that flood the space with natural light.
                 </p>
+                <!-- Buttons -->
                 <a href="" class="bg-lightPrimary w-full rounded-3xl self-center px-5 flex border transition-all border-primary justify-center gap-2 items-center py-2 hover:bg-transparent hover:border-primary sx:w-fit sx:px-7">
                     <h2 class="text-xl font-bold text-textcolor ">View Details</h2>
                     <span class="bg-primary p-2 rounded-full sx:p-3">
@@ -118,6 +126,45 @@
             </div>
         </div>
     </section>
+    <!-- About -->
+     <section class="flex justify-center bg-[#F4F4F4]">
+        <div class="inline-flex w-primary items-center p-10 scroll-pt-12 justify-center flex-col gap-10 lg:flex-row items-center items-center pb-20">
+            <div class="flex flex-col justify-center text-center w-full gap-7 lg:justify-start">
+                <img class="w-[100px] self-center lg:self-start" src="assets/images/arrow-right.svg" alt="Arrow Right">
+                <label class="flex items-center gap-2 w-fit self-center text-ofwhite bg-white px-5 rounded-full py-2 lg:self-start">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.5564 9.00278H1.00002" stroke="#494949" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M12.9279 4.14623C12.9279 4.14623 17.2472 7.79392 17.2472 9.00301C17.2472 10.212 12.9278 13.8597 12.9278 13.8597" stroke="#494949" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    About Us
+                </label>
+                <h2 class="text-2xl font-extrabold text-textcolor 2xs:text-3xl xs:text-4xl sm:text-5xl lg:text-start">
+                    We design thoughtful,<br/> liveable spaces
+                </h2>
+                <p class="text-[14px] text-[#494949] lg:text-start">
+                    The barn house captivates with its blend of rustic charm and  modern sophistication,<br/> featuring weathered wood, sleek metal accents.
+                </p>
+                <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-1">
+                    <div class="flex items-start gap-5 text-start p-6 bg-white rounded-xl">
+                        <img src="assets/images/Building.svg" alt="Building">
+                        <div class="gap-1 grid">
+                            <h5 class="text-textcolor font-bold">Commercial</h5>
+                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-5 text-start p-6 bg-white rounded-xl">
+                        <img src="assets/images/house.svg" alt="Building">
+                        <div class="gap-1 grid">
+                            <h5 class="text-textcolor font-bold">Residential</h5>
+                            <p>The most inspiring residential architecture, interior design, landscaping.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+                <div class="relative lg:top-[40px] bg-center h-[200px] xs:h-[300px] w-full bg-about lg:h-[83%] bg-cover bg-no-repeat rounded-3xl self-center">
+            </div>
+        </div>
+     </section>
     <script>
         const menuButton = document.getElementById('menu-btn');
         const menu = document.getElementById('menu');
