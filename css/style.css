@@ -12,3 +12,8 @@
 .active svg{
     stroke: #ABEF5F !important;
 }
+@media (max-width: 567px){
+    br{
+        display: none;
+    }
+}
