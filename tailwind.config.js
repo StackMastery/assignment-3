@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage:{
         'about': 'url(/assets/images/about.png)',
+        'contact': 'url(/assets/images/contact.png)',
       },
       width: {
         'primary': '1440px',
