@@ -6,6 +6,7 @@ module.exports = {
       backgroundImage:{
         'about': 'url(/assets/images/about.png)',
         'contact': 'url(/assets/images/contact.png)',
+        'faq': 'url(/assets/images/faqs.webp)',
       },
       width: {
         'primary': '1440px',
